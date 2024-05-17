@@ -19,6 +19,7 @@
 		782C42AA2BF64DA10099D08E /* MultiModuleTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiModuleTemplateApp.swift; sourceTree = "<group>"; };
 		782C42AE2BF64DA20099D08E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		782C42B12BF64DA20099D08E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78D5E2162BF7A9C4002C0576 /* MultiModuleTemplate.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = MultiModuleTemplate.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 				782C42AA2BF64DA10099D08E /* MultiModuleTemplateApp.swift */,
 				789B74E32BF7695200294781 /* Resource */,
 				782C42B02BF64DA20099D08E /* Resource Preview */,
+				78D5E2152BF7A9A8002C0576 /* TestPlan */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -82,6 +84,14 @@
 				782C42AE2BF64DA20099D08E /* Assets.xcassets */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		78D5E2152BF7A9A8002C0576 /* TestPlan */ = {
+			isa = PBXGroup;
+			children = (
+				78D5E2162BF7A9C4002C0576 /* MultiModuleTemplate.xctestplan */,
+			);
+			path = TestPlan;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

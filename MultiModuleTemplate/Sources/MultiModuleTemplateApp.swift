@@ -1,10 +1,14 @@
+import AppIcon
 import SwiftUI
 
 @main
 struct MultiModuleTemplateApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppIconSnapshotView(
+                iconName: "m.square.fill",
+                iconColor: .black
+            )
         }
     }
 }

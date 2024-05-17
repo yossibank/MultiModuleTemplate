@@ -8,16 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		782C42AB2BF64DA10099D08E /* MultiModuleTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C42AA2BF64DA10099D08E /* MultiModuleTemplateApp.swift */; };
-		782C42AD2BF64DA10099D08E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C42AC2BF64DA10099D08E /* ContentView.swift */; };
 		782C42AF2BF64DA20099D08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782C42AE2BF64DA20099D08E /* Assets.xcassets */; };
 		782C42B22BF64DA20099D08E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782C42B12BF64DA20099D08E /* Preview Assets.xcassets */; };
 		7865A2E92BF6E6600023F3E8 /* Sample in Frameworks */ = {isa = PBXBuildFile; productRef = 7865A2E82BF6E6600023F3E8 /* Sample */; };
+		789B74E22BF768CE00294781 /* AppIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 789B74E12BF768CE00294781 /* AppIcon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		782C42A72BF64DA10099D08E /* MultiModuleTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiModuleTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		782C42AA2BF64DA10099D08E /* MultiModuleTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiModuleTemplateApp.swift; sourceTree = "<group>"; };
-		782C42AC2BF64DA10099D08E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		782C42AE2BF64DA20099D08E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		782C42B12BF64DA20099D08E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -28,6 +27,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7865A2E92BF6E6600023F3E8 /* Sample in Frameworks */,
+				789B74E22BF768CE00294781 /* AppIcon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				782C42AA2BF64DA10099D08E /* MultiModuleTemplateApp.swift */,
-				782C42AC2BF64DA10099D08E /* ContentView.swift */,
 				782C42AE2BF64DA20099D08E /* Assets.xcassets */,
 				782C42B02BF64DA20099D08E /* Preview Content */,
 			);
@@ -95,6 +94,7 @@
 			name = MultiModuleTemplate;
 			packageProductDependencies = (
 				7865A2E82BF6E6600023F3E8 /* Sample */,
+				789B74E12BF768CE00294781 /* AppIcon */,
 			);
 			productName = MultiModuleTemplate;
 			productReference = 782C42A72BF64DA10099D08E /* MultiModuleTemplate.app */;
@@ -150,7 +150,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				782C42AD2BF64DA10099D08E /* ContentView.swift in Sources */,
 				782C42AB2BF64DA10099D08E /* MultiModuleTemplateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +361,10 @@
 		7865A2E82BF6E6600023F3E8 /* Sample */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Sample;
+		};
+		789B74E12BF768CE00294781 /* AppIcon */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppIcon;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

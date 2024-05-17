@@ -12,3 +12,7 @@ setup-pre-commit:
 .PHONY: install-pre-commit
 install-pre-commit:
 	pre-commit install
+
+.PHONY: run-format
+run-format:
+	swift run --package-path BuildTools swiftformat .

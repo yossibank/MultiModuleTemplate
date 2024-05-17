@@ -2,6 +2,7 @@ PRODUCT_NAME := MultiModuleTemplate
 
 .PHONY: setup
 setup:
+	$(MAKE) install-bundler
 	$(MAKE) install-mint-packages
 	$(MAKE) generate-folder
 	$(MAKE) generate-mock
@@ -19,6 +20,10 @@ setup-pre-commit:
 .PHONY: install-pre-commit
 install-pre-commit:
 	pre-commit install
+
+.PHONY: install-bundler
+install-bundler:
+	bundle install
 
 .PHONY: install-mint-packages
 install-mint-packages:

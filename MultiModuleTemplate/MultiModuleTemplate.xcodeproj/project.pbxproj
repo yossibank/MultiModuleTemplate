@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		782C42AB2BF64DA10099D08E /* MultiModuleTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C42AA2BF64DA10099D08E /* MultiModuleTemplateApp.swift */; };
-		782C42AD2BF64DA10099D08E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C42AC2BF64DA10099D08E /* ContentView.swift */; };
 		782C42AF2BF64DA20099D08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782C42AE2BF64DA20099D08E /* Assets.xcassets */; };
 		782C42B22BF64DA20099D08E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782C42B12BF64DA20099D08E /* Preview Assets.xcassets */; };
+		7865A2E92BF6E6600023F3E8 /* Sample in Frameworks */ = {isa = PBXBuildFile; productRef = 7865A2E82BF6E6600023F3E8 /* Sample */; };
+		789B74E22BF768CE00294781 /* AppIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 789B74E12BF768CE00294781 /* AppIcon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		782C42A72BF64DA10099D08E /* MultiModuleTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiModuleTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		782C42AA2BF64DA10099D08E /* MultiModuleTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiModuleTemplateApp.swift; sourceTree = "<group>"; };
-		782C42AC2BF64DA10099D08E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		782C42AE2BF64DA20099D08E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		782C42B12BF64DA20099D08E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -26,6 +26,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7865A2E92BF6E6600023F3E8 /* Sample in Frameworks */,
+				789B74E22BF768CE00294781 /* AppIcon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +37,9 @@
 		782C429E2BF64DA10099D08E = {
 			isa = PBXGroup;
 			children = (
-				782C42A92BF64DA10099D08E /* MultiModuleTemplate */,
+				782C42A92BF64DA10099D08E /* Sources */,
 				782C42A82BF64DA10099D08E /* Products */,
+				7865A2E72BF6E6600023F3E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,23 +51,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		782C42A92BF64DA10099D08E /* MultiModuleTemplate */ = {
+		782C42A92BF64DA10099D08E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				782C42AA2BF64DA10099D08E /* MultiModuleTemplateApp.swift */,
-				782C42AC2BF64DA10099D08E /* ContentView.swift */,
-				782C42AE2BF64DA20099D08E /* Assets.xcassets */,
-				782C42B02BF64DA20099D08E /* Preview Content */,
+				789B74E32BF7695200294781 /* Resource */,
+				782C42B02BF64DA20099D08E /* Resource Preview */,
 			);
-			path = MultiModuleTemplate;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		782C42B02BF64DA20099D08E /* Preview Content */ = {
+		782C42B02BF64DA20099D08E /* Resource Preview */ = {
 			isa = PBXGroup;
 			children = (
 				782C42B12BF64DA20099D08E /* Preview Assets.xcassets */,
 			);
-			path = "Preview Content";
+			path = "Resource Preview";
+			sourceTree = "<group>";
+		};
+		7865A2E72BF6E6600023F3E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		789B74E32BF7695200294781 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				782C42AE2BF64DA20099D08E /* Assets.xcassets */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +100,10 @@
 			dependencies = (
 			);
 			name = MultiModuleTemplate;
+			packageProductDependencies = (
+				7865A2E82BF6E6600023F3E8 /* Sample */,
+				789B74E12BF768CE00294781 /* AppIcon */,
+			);
 			productName = MultiModuleTemplate;
 			productReference = 782C42A72BF64DA10099D08E /* MultiModuleTemplate.app */;
 			productType = "com.apple.product-type.application";
@@ -137,7 +158,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				782C42AD2BF64DA10099D08E /* ContentView.swift in Sources */,
 				782C42AB2BF64DA10099D08E /* MultiModuleTemplateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,7 +217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -271,7 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MultiModuleTemplate/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Sources/Resource Preview\"";
 				DEVELOPMENT_TEAM = 6WHPY5MQSB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -280,6 +300,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +321,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MultiModuleTemplate/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Sources/Resource Preview\"";
 				DEVELOPMENT_TEAM = 6WHPY5MQSB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -309,6 +330,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +366,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7865A2E82BF6E6600023F3E8 /* Sample */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Sample;
+		};
+		789B74E12BF768CE00294781 /* AppIcon */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppIcon;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 782C429F2BF64DA10099D08E /* Project object */;
 }

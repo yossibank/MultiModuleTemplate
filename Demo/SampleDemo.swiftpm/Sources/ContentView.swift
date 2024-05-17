@@ -1,17 +1,16 @@
+import Sample
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
+            Image(.information)
             Text("Hello, world!")
         }
-        .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    SampleView()
+        .configure(with: "Sample Demo")
 }

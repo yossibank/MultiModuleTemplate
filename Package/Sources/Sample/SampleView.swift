@@ -1,17 +1,17 @@
 import SnapKit
 import UIKit
 
-final class SampleView: UIView {
+public final class SampleView: UIView {
     private let label = UILabel()
 
-    init() {
+    public init() {
         super.init(frame: .zero)
 
         setupView()
     }
 
     @available(*, unavailable)
-    required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
@@ -24,7 +24,7 @@ final class SampleView: UIView {
     }
 
     @discardableResult
-    func configure(with text: String) -> Self {
+    public func configure(with text: String) -> Self {
         label.text = text
         return self
     }

@@ -92,7 +92,7 @@ jobs:
           -workspace MultiModuleTemplate.xcworkspace
           -sdk iphonesimulator
           -configuration Debug
-          -scheme MultiModuleTemplate
+          -scheme Debug
           -destination 'platform=iOS Simulator,name=iPhone 15,OS=17.2'
           -clonedSourcePackagesDirPath SourcePackages
           -derivedDataPath DerivedData

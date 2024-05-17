@@ -79,11 +79,16 @@ let sample = Target.target(
     dependencies: [snapkit]
 )
 
+let mock = Target.target(
+    name: "Mock",
+    dependencies: [sample]
+)
+
 // MARK: - Test Package
 
 let sampleTests = Target.testTarget(
     name: "SampleTests",
-    dependencies: [sample]
+    dependencies: [sample, mock]
 )
 
 // MARK: - Target
@@ -104,6 +109,7 @@ let package = Package.package(
         )
     ],
     targets: [
+        mock,
         sample
     ],
     testTargets: [

@@ -1,0 +1,24 @@
+{
+  "originHash" : "b9010bb5919c272f350433ee0a6da94146fdace732f5d457f5eb3b3544607134",
+  "pins" : [
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
+      }
+    },
+    {
+      "identity" : "swiftformat",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nicklockwood/SwiftFormat",
+      "state" : {
+        "revision" : "05cb325003a673b3d177c711b3bc909cfee07622",
+        "version" : "0.53.9"
+      }
+    }
+  ],
+  "version" : 3
+}

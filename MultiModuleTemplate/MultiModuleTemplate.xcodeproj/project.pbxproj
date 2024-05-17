@@ -11,6 +11,7 @@
 		782C42AD2BF64DA10099D08E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782C42AC2BF64DA10099D08E /* ContentView.swift */; };
 		782C42AF2BF64DA20099D08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782C42AE2BF64DA20099D08E /* Assets.xcassets */; };
 		782C42B22BF64DA20099D08E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782C42B12BF64DA20099D08E /* Preview Assets.xcassets */; };
+		7865A2E92BF6E6600023F3E8 /* Sample in Frameworks */ = {isa = PBXBuildFile; productRef = 7865A2E82BF6E6600023F3E8 /* Sample */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7865A2E92BF6E6600023F3E8 /* Sample in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +39,7 @@
 			children = (
 				782C42A92BF64DA10099D08E /* Sources */,
 				782C42A82BF64DA10099D08E /* Products */,
+				7865A2E72BF6E6600023F3E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +70,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7865A2E72BF6E6600023F3E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +93,9 @@
 			dependencies = (
 			);
 			name = MultiModuleTemplate;
+			packageProductDependencies = (
+				7865A2E82BF6E6600023F3E8 /* Sample */,
+			);
 			productName = MultiModuleTemplate;
 			productReference = 782C42A72BF64DA10099D08E /* MultiModuleTemplate.app */;
 			productType = "com.apple.product-type.application";
@@ -344,6 +357,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7865A2E82BF6E6600023F3E8 /* Sample */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Sample;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 782C429F2BF64DA10099D08E /* Project object */;
 }

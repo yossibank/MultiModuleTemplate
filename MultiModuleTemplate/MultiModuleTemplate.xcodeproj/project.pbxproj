@@ -35,7 +35,7 @@
 		782C429E2BF64DA10099D08E = {
 			isa = PBXGroup;
 			children = (
-				782C42A92BF64DA10099D08E /* MultiModuleTemplate */,
+				782C42A92BF64DA10099D08E /* Sources */,
 				782C42A82BF64DA10099D08E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,7 +48,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		782C42A92BF64DA10099D08E /* MultiModuleTemplate */ = {
+		782C42A92BF64DA10099D08E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				782C42AA2BF64DA10099D08E /* MultiModuleTemplateApp.swift */,
@@ -56,7 +56,7 @@
 				782C42AE2BF64DA20099D08E /* Assets.xcassets */,
 				782C42B02BF64DA20099D08E /* Preview Content */,
 			);
-			path = MultiModuleTemplate;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		782C42B02BF64DA20099D08E /* Preview Content */ = {
@@ -271,7 +271,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MultiModuleTemplate/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Sources/Preview Content\"";
 				DEVELOPMENT_TEAM = 6WHPY5MQSB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -300,7 +300,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MultiModuleTemplate/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Sources/Preview Content\"";
 				DEVELOPMENT_TEAM = 6WHPY5MQSB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

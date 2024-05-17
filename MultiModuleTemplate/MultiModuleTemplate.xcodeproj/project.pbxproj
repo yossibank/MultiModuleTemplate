@@ -55,18 +55,18 @@
 			isa = PBXGroup;
 			children = (
 				782C42AA2BF64DA10099D08E /* MultiModuleTemplateApp.swift */,
-				782C42AE2BF64DA20099D08E /* Assets.xcassets */,
-				782C42B02BF64DA20099D08E /* Preview Content */,
+				789B74E32BF7695200294781 /* Resource */,
+				782C42B02BF64DA20099D08E /* Resource Preview */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		782C42B02BF64DA20099D08E /* Preview Content */ = {
+		782C42B02BF64DA20099D08E /* Resource Preview */ = {
 			isa = PBXGroup;
 			children = (
 				782C42B12BF64DA20099D08E /* Preview Assets.xcassets */,
 			);
-			path = "Preview Content";
+			path = "Resource Preview";
 			sourceTree = "<group>";
 		};
 		7865A2E72BF6E6600023F3E8 /* Frameworks */ = {
@@ -74,6 +74,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		789B74E32BF7695200294781 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				782C42AE2BF64DA20099D08E /* Assets.xcassets */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,7 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Sources/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Sources/Resource Preview\"";
 				DEVELOPMENT_TEAM = 6WHPY5MQSB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -313,7 +321,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Sources/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Sources/Resource Preview\"";
 				DEVELOPMENT_TEAM = 6WHPY5MQSB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

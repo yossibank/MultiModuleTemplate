@@ -6,7 +6,7 @@ struct MultiModuleTemplateApp: App {
     var body: some Scene {
         WindowGroup {
             AppIconSnapshotView(
-                iconName: "m.square.fill",
+                iconName: "apple.logo",
                 iconColor: .black
             )
         }

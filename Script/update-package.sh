@@ -1,0 +1,3 @@
+xcodebuild -resolvePackageDependencies -workspace MultiModuleTemplate.xcworkspace -scheme Debug
+cd BuildTools
+xcodebuild -resolvePackageDependencies

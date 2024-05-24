@@ -50,6 +50,7 @@ extension Target {
 extension Package {
     static func package(
         name: String,
+        defaultLocalization: LanguageTag = "ja",
         platforms: [SupportedPlatform],
         dependencies: [Dependency] = [],
         targets: [Target],
@@ -57,6 +58,7 @@ extension Package {
     ) -> Package {
         .init(
             name: name,
+            defaultLocalization: defaultLocalization,
             platforms: platforms,
             products: targets.map { $0.library() },
             dependencies: dependencies,
@@ -105,7 +107,7 @@ let package = Package.package(
     dependencies: [
         .package(
             url: "https://github.com/nicklockwood/SwiftFormat",
-            from: "0.53.9"
+            from: "0.53.10"
         ),
         .package(
             url: "https://github.com/SnapKit/SnapKit",
